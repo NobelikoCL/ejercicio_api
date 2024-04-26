@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aves de Chile</title>
+</head>
+<body>
+    <h1>Aves de Chile</h1>
+    {% for bird in birds %}
+    <div>
+        <h2>{{ bird['name']['spanish'] }} ({{ bird['name']['english'] }})</h2>
+        <img src="{{ bird['images']['main'] }}" alt="Imagen de {{ bird['name']['spanish'] }}">
+    </div>
+    {% endfor %}
+</body>
+</html>
