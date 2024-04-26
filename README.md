@@ -1,7 +1,7 @@
 # Aves de Chile
 
 ## Descripción
-Este proyecto es una aplicación web desarrollada usando Flask que presenta una galería de aves chilenas. Cada ave se muestra con su nombre en español e inglés y está acompañada de una imagen representativa. Esta herramienta está diseñada para educar al público sobre la diversidad aviar de Chile y potenciar el turismo ecológico.
+Este proyecto es una demo de aplicación web desarrollada usando Flask que presenta una galería de aves chilenas. utiliza una API Public Cada ave se muestra con su nombre en español e inglés y está acompañada de una imagen representativa. Esta herramienta está diseñada para educar al público sobre la diversidad aviar de Chile y potenciar el turismo ecológico.
 
 ## Características
 - **Listado de aves:** Visualiza una lista de aves con su correspondiente nombre en español e inglés.
